@@ -1,0 +1,11 @@
+dataset,parcels,step,runtime_ms
+small,10,Merge Sort,0.0591
+small,10,Quick Sort,0.0443
+small,10,Knapsack DP,0.0747
+small,10,Build Graph,0.0223
+small,10,Dijkstra + TSP,0.0921
+large,1000,Merge Sort,7.1586
+large,1000,Quick Sort,4.3945
+large,1000,Knapsack DP,152.5221
+large,1000,Build Graph,0.6933
+large,1000,Dijkstra + TSP,62.3931

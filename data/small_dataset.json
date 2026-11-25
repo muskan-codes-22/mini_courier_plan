@@ -1,0 +1,178 @@
+{
+  "depot": "Depot",
+  "capacity": 20,
+  "edges": [
+    [
+      "C1",
+      "Depot",
+      19
+    ],
+    [
+      "C2",
+      "Depot",
+      9
+    ],
+    [
+      "C3",
+      "Depot",
+      16
+    ],
+    [
+      "C4",
+      "C3",
+      16
+    ],
+    [
+      "C5",
+      "C3",
+      7
+    ],
+    [
+      "C6",
+      "Depot",
+      16
+    ],
+    [
+      "Depot",
+      "C3",
+      14
+    ],
+    [
+      "C4",
+      "Depot",
+      15
+    ],
+    [
+      "C2",
+      "C5",
+      8
+    ],
+    [
+      "C4",
+      "Depot",
+      11
+    ],
+    [
+      "Depot",
+      "C6",
+      1
+    ],
+    [
+      "C5",
+      "C4",
+      1
+    ],
+    [
+      "C3",
+      "C5",
+      7
+    ],
+    [
+      "C3",
+      "C5",
+      1
+    ],
+    [
+      "C4",
+      "C1",
+      15
+    ],
+    [
+      "C3",
+      "C4",
+      8
+    ],
+    [
+      "C2",
+      "C1",
+      8
+    ],
+    [
+      "C6",
+      "C3",
+      10
+    ],
+    [
+      "Depot",
+      "C3",
+      18
+    ],
+    [
+      "C5",
+      "Depot",
+      6
+    ]
+  ],
+  "parcels": [
+    {
+      "id": "P1",
+      "weight": 5,
+      "priority": 2,
+      "deadline": 6,
+      "destination": "C3"
+    },
+    {
+      "id": "P2",
+      "weight": 9,
+      "priority": 7,
+      "deadline": 5,
+      "destination": "C6"
+    },
+    {
+      "id": "P3",
+      "weight": 4,
+      "priority": 5,
+      "deadline": 3,
+      "destination": "C5"
+    },
+    {
+      "id": "P4",
+      "weight": 8,
+      "priority": 9,
+      "deadline": 4,
+      "destination": "C5"
+    },
+    {
+      "id": "P5",
+      "weight": 1,
+      "priority": 8,
+      "deadline": 2,
+      "destination": "C6"
+    },
+    {
+      "id": "P6",
+      "weight": 7,
+      "priority": 7,
+      "deadline": 6,
+      "destination": "C2"
+    },
+    {
+      "id": "P7",
+      "weight": 6,
+      "priority": 9,
+      "deadline": 6,
+      "destination": "C6"
+    },
+    {
+      "id": "P8",
+      "weight": 6,
+      "priority": 2,
+      "deadline": 4,
+      "destination": "C6"
+    },
+    {
+      "id": "P9",
+      "weight": 9,
+      "priority": 2,
+      "deadline": 7,
+      "destination": "C2"
+    },
+    {
+      "id": "P10",
+      "weight": 9,
+      "priority": 7,
+      "deadline": 3,
+      "destination": "C4"
+    }
+  ]
+}
